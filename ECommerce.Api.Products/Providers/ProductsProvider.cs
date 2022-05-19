@@ -26,6 +26,7 @@ namespace ECommerce.Api.Products.Providers
             {
                 dbContext.Products.Add(new Db.Product { Id = 1, Name = "Keyboard", Price = 20, Inventory = 100 });
                 dbContext.Products.Add(new Db.Product { Id = 2, Name = "Mouse", Price = 15, Inventory = 50 });
+                dbContext.Products.Add(new Db.Product { Id = 3, Name = "Monitor", Price = 215, Inventory = 50 });
 
                 dbContext.SaveChanges();
             }
